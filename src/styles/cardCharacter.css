@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cardCharacter{
+    margin: 40px auto;
+    background-color: white;
+    width: 240px;
+    height: max-content;
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.containerName{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerName span{
+    font-weight: bold;
+    color: #1e293b;
+    font-size: 17px;
+}
+
+.containerPhoto{
+    width: 100%;
+    height: 150px;
+    border: 5px #DADCE0 solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.containerItems{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+.containerStatus{
+    width: 50%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.containerGener{
+    width: 50%;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.containerGener, .containerStatus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    gap: 4px;text-transform: uppercase;
+}
+
+.photo{
+    width: 100%;
+    height: 100%;
+}
+
+.containerMoreInfo{
+    display: flex;
+    justify-content: center;
+}
+
+.Alive{
+    border: 2px solid #81C784;
+    color: #81C784;
+}
+
+.Dead{
+    border: 2px solid #FF4136;
+    color: #FF4136;
+}
+
+.unknown{
+    border: 2px solid gray;
+    color: gray;
+}
+
+.Male{
+    border: 2px solid #0072C6 ;
+    color: #0072C6 ;
+}
+
+.Female{
+    border: 2px solid #F4B6C2;
+    color: #F4B6C2;
+}
+
+.unknown{
+    border: 2px solid gray;
+    color: gray;
+}

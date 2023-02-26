@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnMoreInfo{
+    background-color: #74b9ff;
+    font-family: inherit;
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+    transition: 0.1s ease-in-out;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btnMoreInfo:hover{
+    box-shadow: 0px 2.5px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.btnMoreInfo:active{
+    transform: scale(0.9);
+}
